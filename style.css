@@ -1,0 +1,36 @@
+body{
+    background-color: #BDBDBD;
+    margin: 0;
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+div.foto{
+    background: white;
+    margin-top: 40px;
+}
+div.foto img{
+    width:100%;
+}
+div.foto h2, div.foto p{
+    padding: 10px;
+    margin: 0;
+}
+div.publicacion{
+    width: 600px;
+    margin: auto;
+}
+div.foto .encabezado div:first-child{
+    display:inline-block;
+    width: 80%;
+}
+div.foto .encabezado div:last-child{
+    display:inline-block;
+    width: 20%;
+    color: gray;
+}
